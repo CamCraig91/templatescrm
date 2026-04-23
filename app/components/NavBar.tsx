@@ -249,7 +249,7 @@ export default function NavBar() {
                   Pricing
                 </Link>
                 <Link
-                  href="/sign-in-method"
+                  href="https://signin.method.me/"
                   style={{
                     fontSize: 18,
                     fontWeight: 500,
@@ -859,7 +859,7 @@ export default function NavBar() {
               {signOpen && (
                 <div className="absolute right-0 top-full w-48 bg-white shadow-lg border border-gray-200 rounded-md py-2 z-50">
                   <a
-                    href="/sign-in-method"
+                    href="https://signin.method.me/"
                     onClick={() => setSignLocked(false)}
                     className="block px-4 py-2 hover:bg-gray-100 text-black"
                   >
