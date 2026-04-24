@@ -326,7 +326,7 @@ export default function NavBar() {
                 >
                   Customization
                 </Link>
-                <Link
+                {/* <Link
                   href="/website-design"
                   className="block px-4 py-2 hover:bg-gray-100"
                   style={{
@@ -337,7 +337,7 @@ export default function NavBar() {
                   }}
                 >
                   Website Design
-                </Link>
+                </Link>*/} {/* hidden for now */}
               </div>
             )}
 
